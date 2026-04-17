@@ -46,10 +46,9 @@ Create a hackathon-ready MVP called `CarbonLens` that acts as a single source of
 
 ## Functional Goals
 
-- Allow activity data upload and manual entry
-- Calculate Scope 1 and Scope 2 emissions
-- Support limited Scope 3 supplier submissions
-- Validate data and flag missing or suspicious entries
+- Process ingestions spanning Excel, CSV, Images (OCR), and PDFs (text parsing)
+- Evaluate Scope 1, Scope 2, and a massive baseline Scope 3 dataset natively
+- Validate data and flag missing or suspicious entries autonomously
 - Provide dashboard-level emissions visibility
 - Assign issues to owners for governance
 - Generate a summary report for leadership or audit review
@@ -66,13 +65,12 @@ Create a hackathon-ready MVP called `CarbonLens` that acts as a single source of
 
 - Manufacturing SME use case
 - Dashboard-first web application
-- Scope 1 and Scope 2 coverage
-- Limited Scope 3 categories through supplier portal or form
-- CSV upload and manual entry
+- Unified Engine evaluating Scope 1, 2, and massive Scope 3 evaluation datasets.
+- Data ingestion spans Excel, CSV, Images (OCR), and PDFs.
 - Data quality indicators
 - Governance issue tracking
 - Audit-friendly summary reporting
-- Optional AI narrative insights layered on top
+- Individual git branching separated among the 6-member team.
 
 ## Out Of Scope
 

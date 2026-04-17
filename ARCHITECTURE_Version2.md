@@ -49,11 +49,15 @@ The platform is organized into the following layers:
    - Optional analytics warehouse for historical and aggregated data
 
 4. **Integration Layer**
-   - CSV/Excel imports
+   - File Upload Parsers (Images OCR, PDFs, CSV, Excel)
    - ERP/finance integration
    - Utility or energy data feeds
    - Supplier data submissions
    - Authentication / SSO integration
+
+5. **Collaboration Layer**
+   - Individual Git branches dedicated out per-member (Sameera, Sahiti, Jiya, Atharva, Sparsh, Harsh).
+   - Strict avoidance of hardcoded data—all UI/Backend interactions must be strictly derived from the relational schema and multi-format payloads.
 
 ---
 
@@ -66,9 +70,10 @@ The platform is organized into the following layers:
 - Charting library such as Recharts or ECharts
 
 ### Backend
-- Node.js with NestJS or Express
+- Node.js with Express
 - TypeScript
 - REST APIs
+- **Data Extractor Modules**: Tesseract.js (or equivalent OCR) / PDF-Parse for reading uploaded documents and images.
 
 ### Database
 - PostgreSQL
