@@ -32,9 +32,13 @@ This document translates the final CarbonLens direction into a practical hackath
 - Build dashboard summaries and trends
 - Build report-ready summary page
 
-### Phase 4: Smart Layer and Polish
+### Phase 3.5: Bug Fixes & UI Consolidation (Current Focus)
+- Address any lingering bugs across frontend and backend
+- Improve UI polish, logic, and storytelling
+- Stabilize UX flows across existing modules
+
+### Phase 4: Smart Layer and Polish (PAUSED)
 - Add AI-smart summaries on top of calculated data
-- Improve visual polish and storytelling
 - Test full demo flow
 - Prepare fallback demo path
 

@@ -34,10 +34,10 @@ CarbonLens addresses this by acting as a single source of truth for ESG and GHG 
 
 ## Current Build Status
 
-- Internal settings UI is implemented for organization and facility master data
-- Public supplier submission UI is implemented at `/supplier/submit/:tokenHash`
-- Shared frontend session and Axios infrastructure are in place
-- Dashboard, governance, reporting, and backend feature coverage are still in progress
+- Shared frontend session and Axios infrastructure are in place mapped securely to backend API endpoints.
+- End-to-end user workflows spanning Settings, Dashboards, Governance, and manual data uploads are established.
+- Backend logic for calculating CO2e footprint and executing relational dashboard queries is functionally active. 
+- **CURRENT FOCUS (Phase 3.5):** The team is currently paused on new feature development (halting Phase 4 AI/Reporting logic), shifting full attention to fixing bugs, polishing existing UI screens, stabilizing business logic transitions, and improvising flow edge cases to finalize the core MVP.
 
 ## Tech Stack
 

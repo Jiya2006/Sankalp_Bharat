@@ -55,7 +55,11 @@ To ensure independent branches successfully fuse together, the team must strictl
 * **Sparsh**: Embed `Recharts` Line graphs and Donut elements, mapping data variables tightly to Jiya's aggregate JSON response structures without intercepting math on the client.
 * **Harsh**: Institute global application Toaster alerts via an Axios response interceptor—triggering automated red visual popups whenever the backend responds with >= 400 errors.
 
-### Phase 4: Scenarios, Reporting & Polish
+### Phase 3.5: Consolidation & Polish (Current Focus)
+
+* **Entire Team**: Focus exclusively on fixing bugs, polishing existing UI layouts, stabilizing logic transitions, and eliminating technical debt accumulated through Phases 1-3. Halt progression on new feature pathways.
+
+### Phase 4: Scenarios, Reporting & Polish (PAUSED)
 
 * **Sameera**: Execute comprehensive API testing logic via Postman ensuring that injection attacks, mass assignments, and unauthorized token manipulation rejects effectively.
 * **Sahiti**: Develop an `AuditLogging` engine abstracting Prisma middlewares enforcing that every database mutation logs the `req.user.id` altering data to an untouchable audit table.
